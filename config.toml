@@ -23,7 +23,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+    subtitle = "makes me feel fine"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
@@ -79,12 +79,17 @@ weight = 4
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/vividvilla/ezhil"
+url = "https://github.com/Summer10"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/gohugoio"
+url = "https://twitter.com/HaTruon64125462"
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
+url = "https://www.facebook.com/phuha.truong"
 
 # Enable tags.
 [taxonomies]
