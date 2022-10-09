@@ -52,7 +52,7 @@ _Summer Breeze lyrics © Sutjujo Music, Faizilu Publishing, Songs Of Universal I
 ```
 ---
 
-I suppose this is the place where I can write whatever I want, for no particular reasons, at least for now.
+I suppose this is the place where I can write whatever I want, for no particular reason, at least for now.
 
 Summer breeze makes me feel fine.
 

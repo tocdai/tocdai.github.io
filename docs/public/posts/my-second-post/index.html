@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Dump mysql practices - Summer breeze</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Dump mysql practices" />
+<meta property="og:description" content="Dump without heavily affecting performance: mysqldump -u USER -p --single-transaction --quick --lock-tables=false DATABASE | gzip &gt; OUTPUT.gz
+Use this when you want to dumb data while the application is still serving, for example backing up database" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/my-second-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-20T23:43:51+07:00" />
+<meta property="article:modified_time" content="2021-12-20T23:43:51+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Dump mysql practices"/>
+<meta name="twitter:description" content="Dump without heavily affecting performance: mysqldump -u USER -p --single-transaction --quick --lock-tables=false DATABASE | gzip &gt; OUTPUT.gz
+Use this when you want to dumb data while the application is still serving, for example backing up database"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://example.org/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="http://example.org/css/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="http://example.org/css/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://example.org/js/main.js"></script>
+	<script src="http://example.org/js/abc.js"></script>
+	<script src="http://example.org/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://example.org/">
+	<h1 class="site-title"><a href="http://example.org/">Summer breeze</a></h1>
+	<div class="site-description"><h2>makes me feel fine</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/Summer10" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/HaTruon64125462" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.facebook.com/phuha.truong" title="Facebook"><i data-feather="facebook"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Dump mysql practices</h1>
+			<div class="meta">Posted at &mdash; Dec 20, 2021</div>
+		</div>
+
+		<div class="markdown">
+			<h2 id="dump-without-heavily-affecting-performance">Dump without heavily affecting performance:</h2>
+<p><code>mysqldump -u USER -p --single-transaction --quick --lock-tables=false DATABASE | gzip &gt; OUTPUT.gz</code></p>
+<p>Use this when you want to dumb data while the application is still serving, for example backing up database</p>
+<h2 id="dump-fast">Dump fast</h2>
+<p><code>mysqldump -u root -p DATABASE &gt; backup.sql</code></p>
+<p>Use this when you have completely shut down your services and you want to dump as fast as possible</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'localhost';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

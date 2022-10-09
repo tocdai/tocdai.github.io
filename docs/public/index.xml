@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summer breeze</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Summer breeze</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Mon, 20 Dec 2021 23:43:51 +0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dump mysql practices</title>
+      <link>http://example.org/posts/my-second-post/</link>
+      <pubDate>Mon, 20 Dec 2021 23:43:51 +0700</pubDate>
+      
+      <guid>http://example.org/posts/my-second-post/</guid>
+      <description>Dump without heavily affecting performance: mysqldump -u USER -p --single-transaction --quick --lock-tables=false DATABASE | gzip &amp;gt; OUTPUT.gz
+Use this when you want to dumb data while the application is still serving, for example backing up database</description>
+    </item>
+    
+    <item>
+      <title>Why Summer breeze?</title>
+      <link>http://example.org/posts/why-summer-breeze/</link>
+      <pubDate>Sun, 19 Dec 2021 21:13:26 +0700</pubDate>
+      
+      <guid>http://example.org/posts/why-summer-breeze/</guid>
+      <description>I think of this name mostly because I&amp;rsquo;ve heard of the song itself by Seals &amp;amp; Crofts, the tune is actually pretty popular, I guess you&amp;rsquo;ll realize it easily:</description>
+    </item>
+    
+  </channel>
+</rss>
