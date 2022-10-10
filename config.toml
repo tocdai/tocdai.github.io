@@ -21,6 +21,9 @@ paginate = 10
 # Number of characters to show in summary.
 summaryLength = 20
 
+# Publish directory
+publishdir = "docs"
+
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
     subtitle = "makes me feel fine"
