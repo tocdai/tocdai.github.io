@@ -14,12 +14,22 @@
     
     <item>
       <title>Dump mysql practices</title>
-      <link>https://tocdai.github.io/posts/my-second-post/</link>
+      <link>https://tocdai.github.io/posts/dump-mysql-practices/</link>
       <pubDate>Mon, 20 Dec 2021 23:43:51 +0700</pubDate>
       
-      <guid>https://tocdai.github.io/posts/my-second-post/</guid>
+      <guid>https://tocdai.github.io/posts/dump-mysql-practices/</guid>
       <description>Dump without heavily affecting performance: mysqldump -u USER -p --single-transaction --quick --lock-tables=false DATABASE | gzip &amp;gt; OUTPUT.gz
 Use this when you want to dumb data while the application is still serving, for example backing up database</description>
+    </item>
+    
+    <item>
+      <title>Finished github workflow</title>
+      <link>https://tocdai.github.io/posts/finished-github-workflow/</link>
+      <pubDate>Mon, 20 Dec 2021 23:43:51 +0700</pubDate>
+      
+      <guid>https://tocdai.github.io/posts/finished-github-workflow/</guid>
+      <description>What did I do Done the workflow and this article is a test
+I also bought the Logitech MX Masters keyboard and mouse today.</description>
     </item>
     
     <item>
