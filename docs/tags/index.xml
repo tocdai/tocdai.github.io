@@ -6,6 +6,10 @@
     <description>Recent content in Tags on Summer breeze</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Copyright notice</copyright><atom:link href="https://tocdai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Copyright notice</copyright>
+    
+	<atom:link href="https://tocdai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
