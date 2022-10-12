@@ -42,16 +42,3 @@ jobs:
       - name: Push to remote
         run: |
           git push origin main
-
-      - name: Build static files
-        run: hugo
-
-      - name: Commit build files
-        run: |
-          git config --local user.email "github-action-bot@github.com"
-          git config --local user.name "github-action-bot"
-          git commit -m "Build by bot, commit: ${{github.sha}}" -a
-
-      - name: Push to remote
-        run: |
-          git push origin main
