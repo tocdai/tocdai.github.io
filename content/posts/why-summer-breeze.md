@@ -1,7 +1,7 @@
 ---
 title: "Why Summer breeze?"
 date: 2021-12-19T21:13:26+07:00
-draft: true
+draft: false
 ---
 
 I think of this name mostly because I've heard of the song itself by Seals & Crofts, the tune is actually pretty popular, I guess you'll realize it easily:
