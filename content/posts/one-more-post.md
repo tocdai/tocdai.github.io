@@ -7,4 +7,4 @@ draft: false
 ### What did I do
 Done the workflow and this article is a test
 
-I also bought the Logitech MX Masters keyboard and mouse today.
+I also bought the Logitech MX Masters keyboard and mouse todayyyyy.
